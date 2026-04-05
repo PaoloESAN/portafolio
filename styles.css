@@ -49,7 +49,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 1rem 2rem;
+    padding: 1.5rem 1rem 1rem;
 }
 
 .site-nav {
@@ -57,7 +57,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
 }
 
 .brand {
@@ -70,12 +69,12 @@ a {
 }
 
 .hero-content {
-    width: min(980px, 100% - 2rem);
     background: var(--surface);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     padding: 1.6rem;
     border: 1px solid var(--line);
+    margin-bottom: 1rem;
     animation: fade-up 520ms ease both;
 }
 
