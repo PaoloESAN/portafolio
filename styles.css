@@ -201,7 +201,7 @@ footer {
 
 @media (min-width: 760px) {
     .hero {
-        padding: 1.5rem 2rem 2.5rem;
+        padding: 1.5rem 2rem 1rem;
     }
 
     .hero-content,
@@ -211,6 +211,5 @@ footer {
 
     .site-nav {
         width: min(980px, 100%);
-        margin: 0 auto 1.5rem;
     }
 }
